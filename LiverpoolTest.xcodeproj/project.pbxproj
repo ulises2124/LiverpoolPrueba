@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF8CC0BD25376D7B005CFAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0BC25376D7B005CFAC1 /* AppDelegate.swift */; };
+		DF40D7582537C6D100E1211D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF40D7572537C6D100E1211D /* Loader.swift */; };
+		DF40D75D2537D3DB00E1211D /* UserDefults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF40D75C2537D3DB00E1211D /* UserDefults.swift */; };
+		DF40D7622537EA2100E1211D /* liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40D7612537EA2100E1211D /* liverpool.png */; };
 		DF8CC0BF25376D7B005CFAC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0BE25376D7B005CFAC1 /* SceneDelegate.swift */; };
 		DF8CC0C125376D7B005CFAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0C025376D7B005CFAC1 /* ViewController.swift */; };
 		DF8CC0C425376D7B005CFAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8CC0C225376D7B005CFAC1 /* Main.storyboard */; };
@@ -15,6 +17,15 @@
 		DF8CC0C925376D7C005CFAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8CC0C725376D7C005CFAC1 /* LaunchScreen.storyboard */; };
 		DF8CC0D425376D7C005CFAC1 /* LiverpoolTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0D325376D7C005CFAC1 /* LiverpoolTestTests.swift */; };
 		DF8CC0DF25376D7C005CFAC1 /* LiverpoolTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0DE25376D7C005CFAC1 /* LiverpoolTestUITests.swift */; };
+		DF8CC0F125376DBE005CFAC1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0F025376DBE005CFAC1 /* Networking.swift */; };
+		DF8CC0F925376DDE005CFAC1 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0F825376DDE005CFAC1 /* InternetConnection.swift */; };
+		DF8CC0FF25376E21005CFAC1 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC0FE25376E21005CFAC1 /* Strings.swift */; };
+		DF8CC10625376FA1005CFAC1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC10525376FA1005CFAC1 /* ModelData.swift */; };
+		DF8CC10B25377180005CFAC1 /* OrdersCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC10A25377180005CFAC1 /* OrdersCellView.swift */; };
+		DF8CC113253774DB005CFAC1 /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC112253774DB005CFAC1 /* Extensiones.swift */; };
+		DF8CC11825377555005CFAC1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC11725377555005CFAC1 /* Colors.swift */; };
+		DF8CC11E25377647005CFAC1 /* ControllerViewTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8CC11D25377647005CFAC1 /* ControllerViewTable.swift */; };
+		DFA5FBFA2539268A002756C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5FBF92539268A002756C3 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF40D7572537C6D100E1211D /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		DF40D75C2537D3DB00E1211D /* UserDefults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefults.swift; sourceTree = "<group>"; };
+		DF40D7612537EA2100E1211D /* liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liverpool.png; sourceTree = "<group>"; };
 		DF8CC0B925376D7B005CFAC1 /* LiverpoolTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiverpoolTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8CC0BC25376D7B005CFAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF8CC0BE25376D7B005CFAC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DF8CC0C025376D7B005CFAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF8CC0C325376D7B005CFAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,15 @@
 		DF8CC0DA25376D7C005CFAC1 /* LiverpoolTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiverpoolTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8CC0DE25376D7C005CFAC1 /* LiverpoolTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverpoolTestUITests.swift; sourceTree = "<group>"; };
 		DF8CC0E025376D7C005CFAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8CC0F025376DBE005CFAC1 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		DF8CC0F825376DDE005CFAC1 /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		DF8CC0FE25376E21005CFAC1 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		DF8CC10525376FA1005CFAC1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		DF8CC10A25377180005CFAC1 /* OrdersCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersCellView.swift; sourceTree = "<group>"; };
+		DF8CC112253774DB005CFAC1 /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
+		DF8CC11725377555005CFAC1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DF8CC11D25377647005CFAC1 /* ControllerViewTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerViewTable.swift; sourceTree = "<group>"; };
+		DFA5FBF92539268A002756C3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +121,18 @@
 		DF8CC0BB25376D7B005CFAC1 /* LiverpoolTest */ = {
 			isa = PBXGroup;
 			children = (
-				DF8CC0BC25376D7B005CFAC1 /* AppDelegate.swift */,
+				DF8CC11C25377635005CFAC1 /* Controller */,
+				DF8CC10425376F94005CFAC1 /* Models */,
+				DF8CC10325376F0C005CFAC1 /* Views */,
+				DF8CC0FD25376E15005CFAC1 /* Utils */,
+				DF8CC0EF25376DA1005CFAC1 /* Networking */,
 				DF8CC0BE25376D7B005CFAC1 /* SceneDelegate.swift */,
-				DF8CC0C025376D7B005CFAC1 /* ViewController.swift */,
 				DF8CC0C225376D7B005CFAC1 /* Main.storyboard */,
 				DF8CC0C525376D7C005CFAC1 /* Assets.xcassets */,
+				DF40D7612537EA2100E1211D /* liverpool.png */,
 				DF8CC0C725376D7C005CFAC1 /* LaunchScreen.storyboard */,
 				DF8CC0CA25376D7C005CFAC1 /* Info.plist */,
+				DF8CC112253774DB005CFAC1 /* Extensiones.swift */,
 			);
 			path = LiverpoolTest;
 			sourceTree = "<group>";
@@ -126,6 +153,52 @@
 				DF8CC0E025376D7C005CFAC1 /* Info.plist */,
 			);
 			path = LiverpoolTestUITests;
+			sourceTree = "<group>";
+		};
+		DF8CC0EF25376DA1005CFAC1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DF8CC0F025376DBE005CFAC1 /* Networking.swift */,
+				DF8CC0F825376DDE005CFAC1 /* InternetConnection.swift */,
+				DFA5FBF92539268A002756C3 /* AppDelegate.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DF8CC0FD25376E15005CFAC1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF8CC0FE25376E21005CFAC1 /* Strings.swift */,
+				DF8CC11725377555005CFAC1 /* Colors.swift */,
+				DF40D7572537C6D100E1211D /* Loader.swift */,
+				DF40D75C2537D3DB00E1211D /* UserDefults.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF8CC10325376F0C005CFAC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF8CC0C025376D7B005CFAC1 /* ViewController.swift */,
+				DF8CC10A25377180005CFAC1 /* OrdersCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF8CC10425376F94005CFAC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF8CC10525376FA1005CFAC1 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF8CC11C25377635005CFAC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF8CC11D25377647005CFAC1 /* ControllerViewTable.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF40D7622537EA2100E1211D /* liverpool.png in Resources */,
 				DF8CC0C925376D7C005CFAC1 /* LaunchScreen.storyboard in Resources */,
 				DF8CC0C625376D7C005CFAC1 /* Assets.xcassets in Resources */,
 				DF8CC0C425376D7B005CFAC1 /* Main.storyboard in Resources */,
@@ -259,8 +333,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8CC0C125376D7B005CFAC1 /* ViewController.swift in Sources */,
-				DF8CC0BD25376D7B005CFAC1 /* AppDelegate.swift in Sources */,
+				DF8CC11825377555005CFAC1 /* Colors.swift in Sources */,
+				DF40D7582537C6D100E1211D /* Loader.swift in Sources */,
+				DF8CC11E25377647005CFAC1 /* ControllerViewTable.swift in Sources */,
 				DF8CC0BF25376D7B005CFAC1 /* SceneDelegate.swift in Sources */,
+				DF40D75D2537D3DB00E1211D /* UserDefults.swift in Sources */,
+				DF8CC0F125376DBE005CFAC1 /* Networking.swift in Sources */,
+				DF8CC0FF25376E21005CFAC1 /* Strings.swift in Sources */,
+				DFA5FBFA2539268A002756C3 /* AppDelegate.swift in Sources */,
+				DF8CC0F925376DDE005CFAC1 /* InternetConnection.swift in Sources */,
+				DF8CC113253774DB005CFAC1 /* Extensiones.swift in Sources */,
+				DF8CC10B25377180005CFAC1 /* OrdersCellView.swift in Sources */,
+				DF8CC10625376FA1005CFAC1 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +457,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -427,6 +512,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -437,7 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44N6757B47;
+				DEVELOPMENT_TEAM = RCPN72B2Z8;
 				INFOPLIST_FILE = LiverpoolTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +542,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44N6757B47;
+				DEVELOPMENT_TEAM = RCPN72B2Z8;
 				INFOPLIST_FILE = LiverpoolTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
